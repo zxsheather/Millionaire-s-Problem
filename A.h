@@ -122,7 +122,10 @@ long long Quick_Pow(long long x, long long key, long long p) {
 }
 
 void Send() {
-    RSA_Generate();
+    std::cout<<"请输入大数n"<<std::endl;
+    std::cin>>n;
+    std::cout<<"请输入公钥"<<std::endl;
+    std::cin>>public_key;
     long long x = Generate_x(MIN,MAX);
     std::cout << "x=" << x << std::endl;
     int i;
@@ -148,6 +151,7 @@ void Receive() {
     for (long long k = j + 1; k <= N; ++k) {
         std::cout << Quick_Pow(ciphertext + k, private_key, n) % p + 1 << ' ';
     }
+    std::cout<<std::endl;
 }
 
 void Check() {
@@ -160,9 +164,9 @@ void Check() {
         std::cin >> b;
     }
     if (a % p == b % p) {
-        std::cout << "他的财富较多";
+        std::cout << "他的财富较多"<<std::endl;
     } else {
-        std::cout << "你的财富较多";
+        std::cout << "你的财富较多"<<std::endl;
     }
 }
 #endif //A_H
