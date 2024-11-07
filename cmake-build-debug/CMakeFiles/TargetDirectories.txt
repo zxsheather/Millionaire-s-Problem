@@ -1,0 +1,3 @@
+/Users/apple/Desktop/伟大思想作业/Millionaire/cmake-build-debug/CMakeFiles/Millionaire.dir
+/Users/apple/Desktop/伟大思想作业/Millionaire/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/apple/Desktop/伟大思想作业/Millionaire/cmake-build-debug/CMakeFiles/rebuild_cache.dir
