@@ -2,7 +2,7 @@
 //Created by zxsheather on 24-11-6
 //主程序
 #include <iostream>
-#include "A.h"
+#include "Millionaire.h"
 
 int main(){
     int select;
