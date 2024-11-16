@@ -1,2 +1,2 @@
-[查看简介](Millionaire-s-problem.html)
+[查看简介](Millionaire-s-Problem.html)
 
