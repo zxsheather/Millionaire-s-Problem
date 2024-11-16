@@ -16,9 +16,9 @@
 
 **RSA_Generate**：产生大数、公钥、私钥。 $$O(k*\sqrt{p}+log(f))$$,$f$为欧拉函数。
 
-**Send**: 加密。 $$O(log(public\_key)$$
+**Send**: 加密。 $$O(log(publickey)$$
 
-**Recieve**：解密。 $$O(k*\sqrt{p}+Nlog(private\_key))$$
+**Recieve**：解密。 $$O(k*\sqrt{p}+Nlog(privatekey))$$
 
 **Check**: 比较。 $$O(N)$$
 
