@@ -88,12 +88,8 @@ long long mod_reverse(long long a, long long b){ //a*x=1(mod b) 求a的逆元x
 
 //产生大数n,公钥与私钥
 void RSA_Generate() {
-    // std::cout<<"请输入两个随机数种子"<<std::endl;
-    // long long seed1,seed2;
-    // std::cin>>seed1>>seed2;
     long long p = Generate_p();
     long long q = Generate_p();
-    //std::cout<<p<<' '<<q;
     n = p * q;
     long long f = (p - 1) * (q - 1);
     while (true) {
