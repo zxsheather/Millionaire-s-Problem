@@ -14,7 +14,7 @@
 
 **Quick_Pow**:快速幂。 $$O(log(key))$$
 
-**RSA_Generate**：产生大数、公钥、私钥。 $$O(k*\sqrt{p}+log(f))$$,$f$为欧拉函数。
+**RSA_Generate**：产生大数、公钥、私钥。 $$O(k*\sqrt{p}+log(f))$$,$$ f $$为欧拉函数。
 
 **Send**: 加密。 $$O(log(publickey)$$
 
