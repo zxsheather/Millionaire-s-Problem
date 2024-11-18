@@ -4,4 +4,5 @@ project(Millionaire)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Millionaire main.cpp
-        Millionaire.h)
+        Millionaire.h
+        SMMR.h)

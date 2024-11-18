@@ -85,9 +85,13 @@ long long mod_reverse(long long a, long long b){ //a*x=1(mod b) 求a的逆元x
     else
         return -1;
 }
-
+struct RSA{
+    long long n;
+    long long e;
+    long long d;
+};
 //产生大数n,公钥与私钥
-void RSA_Generate() {
+RSA RSA_Generate() {
     long long p = Generate_p();
     long long q = Generate_p();
     n = p * q;
@@ -99,6 +103,7 @@ void RSA_Generate() {
         }
     }
     private_key = mod_reverse(public_key, f);
+    return (RSA){n,public_key,private_key};
     std::cout << "n=" << n << std::endl;
     std::cout << "公钥为" << public_key << std::endl;
     std::cout << "私钥为" << private_key << std::endl;
