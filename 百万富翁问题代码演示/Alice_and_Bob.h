@@ -174,6 +174,6 @@ void alice::step6() {
     if (r[num] == x % p)
         std::cout << "相同,Alice 发现自己的数小于等于对方的数\n";
     else
-        std::cout << "不同,Alice 发现自己的数大于等于对方的数\n";
+        std::cout << "不同,Alice 发现自己的数大于对方的数\n";
     std::cout << "Alice 再将结果告诉对方,协议结束\n";
 }
