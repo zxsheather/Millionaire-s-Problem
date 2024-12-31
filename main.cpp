@@ -65,9 +65,23 @@ int main() {
     std::cout << std::endl;
     std::cout << std::endl;
 
+    for (int i = 0; i < num; ++i) {
+      for(int j = 0; j < sup; ++j) {
+        std::cout << t.l[i][j] << " & ";
+      }
+      std::cout << std::endl;
+    }
+    std::cout << std::endl;
+    std::cout << std::endl;
+
+    for(int i = 0; i < sup; ++i) {
+      std::cout << t.L[i] << ' ';
+    }
+    std::cout << std::endl;
+
     for (int j = 0; j < num; ++j) {
       for (int i = 0; i < sup; ++i) {
-        std::cout << p.b[j][i] << ' ';
+        std::cout << p.b[j][i] << " & ";
       }
       std::cout << std::endl;
     }
@@ -75,7 +89,7 @@ int main() {
 
     for (int j = 0; j < num; ++j) {
       for (int i = 0; i < sup; ++i) {
-        std::cout << p.v[j][i] << ' ';
+        std::cout << p.v[j][i] << " & ";
       }
       std::cout << std::endl;
     }
@@ -83,7 +97,7 @@ int main() {
 
     for (int j = 0; j < num; ++j) {
       for (int i = 0; i < sup; ++i) {
-        std::cout << p.v_e[j][i] << ' ';
+        std::cout << p.v_e[j][i] << " & ";
       }
       std::cout << std::endl;
     }
